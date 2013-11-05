@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tabletop Badassery</title>
+</head>
+
+    <style type="text/css">
+
+      div {
+        float:left;
+        border: 1px solid #ff00ff;
+      }
+
+      .img {
+        width:100%;
+      }
+
+
+
+    </style>
+<body>
+  <script src="tabletop.js"></script>
+  <script src="jquery.min.js"></script>
+  <script> 
+    window.onload = function() { init() };
+
+    var public_spreadsheet_url = 'https://docs.google.com/spreadsheet/pub?key=0ApL2ZVhpOmONdG5PUUUtaHZnVDhkM0lVcm1PTW96NXc&output=html';
+
+    function init() {
+      Tabletop.init( { key: public_spreadsheet_url,
+                       callback: showInfo,
+                       simpleSheet: true } )
+    }
+
+    function showInfo(data, tabletop) {
+      console.log(data);
+      console.log(data[0].age);
+
+
+      for (var i = 0; i < data.length; i++ ) {    //*for variable i = 0 (first element), i is less than data.length
+        $('body').append ('<div> <h1>' 
+          + data[i].cats + '</h1>'
+        + '<img src=' + data[i].image + '>'
+        + '<p>' + data[i].details 
+        + '</p> </div>');
+      };
+
+
+    }
+
+  </script>
+
+
+
+
+</body>
+</html>
