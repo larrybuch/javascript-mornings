@@ -1,0 +1,68 @@
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tabletop Badassery</title>
+</head>
+<body>
+  <script src="tabletop.js"></script>
+  <script src="jquery.min.js"></script>
+  <script > 
+    window.onload = function() { init() };
+
+    var public_spreadsheet_url = 'https://docs.google.com/spreadsheet/pub?key=0ApL2ZVhpOmONdG5PUUUtaHZnVDhkM0lVcm1PTW96NXc&output=html';
+
+    function init() {
+      Tabletop.init( { key: public_spreadsheet_url,
+                       callback: showInfo,
+                       simpleSheet: true } )
+    }
+
+    function showInfo(data, tabletop) {
+      alert("Successfully processed!")
+      console.log(data);
+      
+
+      for (var i = 0; i <data.length; i++) {
+        $('body').append( '<div> <h1>' 
+          + data[i].cats + '</h1>' 
+          );
+        $('body').append( '<img src=' + data[i].image + '<' );
+        
+      };
+
+
+
+
+    }
+
+  </script>
+</body>
+</html>
