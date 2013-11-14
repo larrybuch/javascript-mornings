@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>D3-ness</title>
+  <script src="tabletop.js"></script>
+  <script src="d3.min.js"></script>
+
+  <style>
+
+    .headline{
+      color: red;
+      font-size: 50px;
+    }
+
+    .box{
+      width: 40px;
+      height: 15px;
+      padding: 5px;
+      color: white;
+      margin-bottom: 5px;
+      font-family: arial;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    .STATE{
+      background-color: red;
+    }
+
+    .FEDERAL{
+      background-color: blue;
+    }
+
+  </style>
+</head>
+<body>
+  <div id="graphic"></div>
+  <button>click me</button>
+
+  <script>
+    window.onload = function() { init() };
+
+    var public_spreadsheet_url = 'https://docs.google.com/spreadsheet/pub?key=0ApL2ZVhpOmONdDJGSEdmcmVIdzFSSEtaYjREbmpVX1E&output=html';
+
+    function init() {
+      Tabletop.init( { key: public_spreadsheet_url,
+                       callback: showInfo,
+                       simpleSheet: true } )
+    }
+
+    function showInfo(data, tabletop) {
+      console.log(data);
+
+      d3.selectAll('.state')
+        .data(data)
+        .enter()
+        .append('div')
+        .text( function(d){ return d.state } )
+        .attr('class', function(d){ return 'box ' + d.type })
+        .style('width', function(d){ return d.individuals/150 + 'px' } )
+        .style('opacity', .4);
+
+      d3.select('button')
+        .on('click', function(d){
+
+          d3.selectAll('.box')
+            .transition()
+            .duration( function(d){ return d.numbers/20 } )
+            .style('width', function(d){return d.numbers/150 + 'px'} )
+            .style('opacity', 1);
+        });
+    }
+
+
+  </script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
