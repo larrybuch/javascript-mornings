@@ -1,0 +1,10 @@
+JS for Designers
+https://twitter.com/jsfordesigners
+
+Veltman Web Principles
+https://github.com/veltman/principles
+
+CronJob (downloading stuff every so often)
+
+Alfred App
+http://www.alfredapp.com/
