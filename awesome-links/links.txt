@@ -12,3 +12,7 @@ http://www.alfredapp.com/
 
 How do I 
 https://pypi.python.org/pypi/howdoi?utm_content=bufferffdd1&utm_source=buffer&utm_medium=twitter&utm_campaign=Buffer
+
+rails learning videos
+https://dl.dropboxusercontent.com/u/7945837/RAILS%20LEARNIN/peepcode-049-rails-3-i-2.mov
+https://dl.dropboxusercontent.com/u/7945837/RAILS%20LEARNIN/peepcode-053-rails-3-ii-2.mov
