@@ -5,6 +5,10 @@ Veltman Web Principles
 https://github.com/veltman/principles
 
 CronJob (downloading stuff every so often)
+https://developers.google.com/appengine/docs/python/config/cron
 
 Alfred App
 http://www.alfredapp.com/
+
+How do I 
+https://pypi.python.org/pypi/howdoi?utm_content=bufferffdd1&utm_source=buffer&utm_medium=twitter&utm_campaign=Buffer
