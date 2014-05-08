@@ -6,8 +6,7 @@
 - Sympy: Symbolic mathematics
 - [pandas](http://pandas.pydata.org/): Data structures & analysis (like R for Python)
 
-One easy sane thing to do is just install **Anaconda**, a big package of Python data science stuff that will manage dependencies and keep itself up-to-date reasonably well. You can keep it out of your PATH so it remains scoped / non-conflicting.
-http://continuum.io/downloads 
+One easy sane thing to do is just install **[Anaconda](http://continuum.io/downloads)**, a big package of Python data science stuff that will manage dependencies and keep itself up-to-date reasonably well. You can keep it out of your PATH so it remains scoped / non-conflicting.
 
 ```shell
 cd ~/anaconda/bin
@@ -17,9 +16,9 @@ A couple fun things to try:
 
 **[Pandas cookbook](https://github.com/jvns/pandas-cookbook)** is a great introduction to the whole stack.
 
-**[NLTK](http://www.nltk.org/) ([docs](http://www.nltk.org/api/nltk.html))** is fun to try. Skim the book: http://www.nltk.org/book/
+**[NLTK](http://www.nltk.org/)** (natural language toolkit) is fun to try. Skim the [book](http://www.nltk.org/book/) or [docs](http://www.nltk.org/api/nltk.html).
 
-E.g.:
+E.g., as we were looking at on 8 May:
 
 ```python
 import nltk
