@@ -1,19 +1,6 @@
-# FiveThirtyEight "Intro to R" Seminar
-# Friday, May 2, 2014
-
-# What is R?
-
-# Overview of RStudio layout: Console, Editor, History, Viewer, etc.
-
-# WHAT IS THIS GREEN TEXT AFTER THE # SYMBOL? COMMENTS! R ignores them
-
-# How to execute commands on (1) Console and (2) Editor
-
-# First things first: what and where is my working directory?
-
 getwd()
 
-setwd("~/Documents/coding-programming/R/basics")  #  Create a folder "538seminar" in your "Documents" folder
+setwd("~/Documents//R/basics")  #  Create a folder 
 
 list.files()
 
@@ -36,9 +23,9 @@ class(1)
 class(1 == 1)
 
 # Character class
-FiveThirtyEight # BAD: Typing characters without '' issues error
-'FiveThirtyEight' # GOOD
-name = 'FiveThirtyEight' # We ASSIGN a name & adds to workspace
+JavascriptMornings # BAD: Typing characters without '' issues error
+'JavascriptMornings' # GOOD
+name = 'JavascriptMornings' # We ASSIGN a name & adds to workspace
 name 
 class(name)
 
@@ -145,12 +132,12 @@ plot(Cars93$Price ~ Cars93$Type)
 
 # CSV files
 ?read.csv
-mlb.players = read.csv("mlb_players.csv", header=T)
+mlb.players = read.csv("your_data.csv", header=T)
 View(mlb.players)
 names(mlb.players)
 
 # Excel files
-librarians = read.csv("librarians_by_msa.xlsx") # WON'T WORK
+librarians = read.csv("your_excel_data.xlsx") # WON'T WORK
 
 install.packages("gdata")
 library(gdata)
