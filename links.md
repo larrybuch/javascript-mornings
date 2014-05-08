@@ -1,3 +1,5 @@
+### Old
+
 JS for Designers
 https://twitter.com/jsfordesigners
 
@@ -17,7 +19,7 @@ rails learning videos
 https://dl.dropboxusercontent.com/u/7945837/RAILS%20LEARNIN/peepcode-049-rails-3-i-2.mov
 https://dl.dropboxusercontent.com/u/7945837/RAILS%20LEARNIN/peepcode-053-rails-3-ii-2.mov
 
-// toph says...
+### Toph, 9 Jan
 
 Learn Gmail shortcuts and get good at triage. 
 http://xph.us/2013/01/22/inbox-zero-for-life.html
