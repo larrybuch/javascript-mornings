@@ -1,0 +1,28 @@
+We're going through this example:
+http://bl.ocks.org/ritchieking/8599125
+
+Shan Carter's Mr. Nester: http://bl.ocks.org/shancarter/raw/4748131/
+(Kevin Quealy's tweet https://twitter.com/KevinQ/status/300456477590712320)
+
+Two key realizations leading to small multiples chart:
+
+1. When you join data to an element, all the children also inherit that data
+
+2. Use nesting
+
+Start off with, like,
+```csv
+Country,year,value,group
+Benin,1962,90,low-income
+Burkina Faso,1962,80,low-income
+Burundi,1962,70,low-income
+Cen. African Rep.,1962,80,low-income
+Chad,1962,110,low-income
+"Congo, Dem. Rep.",1962,230,low-income
+Kenya,1962,100,low-income
+Liberia,1962,160,low-income
+Madagascar,1962,130,low-income
+Malawi,1962,50,low-income
+```
+
+`datum` just binds the data to whatever element without doing the whole enter-exit-data-join-selection thingy. most often used for making paths for line charts,cuz you want to bind a bunch of data to a single element
