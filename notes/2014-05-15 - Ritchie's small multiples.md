@@ -1,15 +1,17 @@
 # Be the change you want to see in the world
 
-We're going through this example:
-http://bl.ocks.org/ritchieking/8599125
+[Tabletop.js](https://github.com/jsoma/tabletop) (by [jsoma of Brooklyn Brainery](https://github.com/jsoma)) converts any Google Spreadsheet to JSON. Super easy. Sick.
 
-Shan Carter's Mr. Nester: http://bl.ocks.org/shancarter/raw/4748131/ (via [Kevin Quealy's SEO-friendly tweet lolol](https://twitter.com/KevinQ/status/300456477590712320))
+OK Ritchie's going through this example:
+http://bl.ocks.org/ritchieking/8599125
 
 Two key realizations leading to small multiples chart:
 
 1. When you join data to an element, all the children also inherit that data.
 
 2. Use nesting.
+
+Shan Carter's Mr. Nester: http://bl.ocks.org/shancarter/raw/4748131/ (via [Kevin Quealy's SEO-friendly tweet lolol](https://twitter.com/KevinQ/status/300456477590712320))
 
 Start off with, like,
 ```csv
@@ -49,9 +51,9 @@ End up with, like,
 
 `datum` just binds the data to whatever element without doing the whole enter-exit-data-join-selection thingy. most often used for making paths for line charts,cuz you want to bind a bunch of data to a single element
 
-Then looking at this sweet sync'ed thing: http://bl.ocks.org/ritchieking/8628654
+Then looking at this sweet sync'ed-hover sparkline thing: http://bl.ocks.org/ritchieking/8628654
 
-`bisector` does, like, whatever. Cmd-F https://github.com/mbostock/d3/wiki/Arrays
+`bisector` does, um, whatever. Cmd-F https://github.com/mbostock/d3/wiki/Arrays
 
 Blocks search engine by API call: http://bl.ocksplorer.org/
 
@@ -62,6 +64,8 @@ Stalking Larry:
 Now talking about abstraction layers atop D3.
 
 ggplot2 has "faceting"......
+
+Gistup creates gists from the command line. https://github.com/mbostock/gistup
 
 RAW: mapping dimensions of the data to dimensions of the visualization
 http://app.raw.densitydesign.org/
