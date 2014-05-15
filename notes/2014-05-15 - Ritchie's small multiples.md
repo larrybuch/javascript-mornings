@@ -70,3 +70,4 @@ Gistup creates gists from the command line. https://github.com/mbostock/gistup
 RAW: mapping dimensions of the data to dimensions of the visualization
 http://app.raw.densitydesign.org/
 
+Bostock's "Towards Reusable Charts" offers a nice pattern. http://bost.ocks.org/mike/chart/
