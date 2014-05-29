@@ -17,6 +17,7 @@
 ### 29 May 2014
 - Toph, post wisdom teeth, slays data.
 - [Toward(s) Reuseable Charts](http://bost.ocks.org/mike/chart/)
+- [Application Building with D3](http://jfire.io/presentations/graphical-web-2013/#/) – somebody's slideshow lecture notes on D3 as frontend framework
 - How much of d3 have you read? None.
 - Keith Collins. 
 - [Flappy Bird](http://www.bloomberg.com/infographics/2014-05-23/flappy-bird.html)
