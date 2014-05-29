@@ -12,4 +12,5 @@
 
 ### 22 May 2014
 - Michael Deal on D3 as a frontend framework
-- [Tributary.io](http://tributary.io/) for editing/testing on the fly
+- [Application Building with D3](http://jfire.io/presentations/graphical-web-2013/#/) – somebody's slideshow lecture notes on D3 as frontend framework
+- [Tributary.io](http://tributary.io/) for editing/testing on the fly- 
