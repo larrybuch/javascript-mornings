@@ -21,9 +21,11 @@
 - How much of d3 have you read? None.
 - Keith Collins. 
 - [Flappy Bird](http://www.bloomberg.com/infographics/2014-05-23/flappy-bird.html)
+- [App Annie](http://www.appannie.com/) app ranking data
+- [Interval Progress Bar](http://bl.ocks.org/keithcollins/a0564c578b9328fcdcbb)
 - [SVG Patterns](http://jsfiddle.net/yduKG/40/)
 - Derek Watkins
 - [More Patterns](http://bl.ocks.org/dwtkns/7319558)
 - [Dancing Texas](http://bl.ocks.org/dwtkns/7405490)
-- [App Annie](http://www.appannie.com/) app ranking data
+
 - [Perfect Circles](https://www.youtube.com/watch?v=1TplLFAwpy0)
