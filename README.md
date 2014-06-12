@@ -45,3 +45,11 @@
 	- [RescueTime](https://www.rescuetime.com/) - Tracks and visualizes the time you spend on different apps/sites
 - Feedback session on Larry's cancer diagnosis visualization
 - [Rob Giampietro's portfolio](http://www.linedandunlined.com/) - A tab Larry hasn't closed in a year
+
+### 12 June 2014
+- "Never let your fear decide your fate."
+- Adrian Bautista from GA set a javascript mornings record and built 3 websites in the time it took for us to update this markdown file.
+  - [Static Site Generators](https://gist.github.com/adrianbautista/c1ff317d2bc4c1a25c48) Yeoman, Middleman, and Jekyll
+
+
+
