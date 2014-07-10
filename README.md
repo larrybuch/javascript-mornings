@@ -51,5 +51,20 @@
 - Adrian Bautista from GA set a javascript mornings record and built 3 websites in the time it took for us to update this markdown file.
   - [Static Site Generators](https://gist.github.com/adrianbautista/c1ff317d2bc4c1a25c48) Yeoman, Middleman, and Jekyll
 
-
-
+### 10 July 2014
+- Toph talked swoopyArrows.js lol. “No straight arrow was ever made out of the crooked timber of javascript.”
+- Derek talks ["A Rogue State Along Two Rivers: How ISIS Came to Control Large Portions of Syria and Iraq"](http://www.nytimes.com/interactive/2014/07/03/world/middleeast/syria-iraq-isis-rogue-state-along-two-rivers.html), which is just so incredibly good.
+  - Easter egg by Jeremy Ashkenas: click to console.log([lat,long]). 
+  - Tiles were assembled from NASA Landsat images via USGS Earth Explorer http://earthexplorer.usgs.gov/; had to be reconstructed into well-exposed visual spectrum from the raw wide-spectrum EM sensor data.
+  - Rob Simmon of NASA has a tutorial ["How To Make a True-Color Landsat 8 Image"](http://earthobservatory.nasa.gov/blogs/elegantfigures/2013/10/22/how-to-make-a-true-color-landsat-8-image/)
+  - Window boundaries are unprojected to coordinates which are then reprojected onto locator map.
+  - Cities were sometimes traced with a neat little bespoke in-browser tool.
+- Toph likes [Sonifizer](http://www.sonifizer.com/), for data audio
+  - Adam has done ["Making Music with D3"](http://roadtolarissa.com/synth/)
+  - Karl Ward's poignant ["Th_s Lan_ Is Yo_r L_nd"](http://karlward.com/this/)
+  - Amanda Cox's awesome ["Fractions of a Second: An Olympic Musical"](http://www.nytimes.com/interactive/2010/02/26/sports/olympics/20100226-olysymphony.html?_r=0)
+    - Which Mike astutely compared to Ol' Dirty Bastard's classic ["Shimmy Shimmy Ya"](https://www.youtube.com/watch?v=4ITLNzPoEqs)
+    - KPQ, ["Why Amanda Cox should be in charge of audio"](http://chartsnthings.tumblr.com/post/29211142029/why-amanda-cox-should-be-in-charge-of-audio)
+    - Larry has a 2010 email exchange with Amanda in which she wisely recommends he learn Javascript, not Flash. Our origin story!
+  - [Data cuisine](http://data-cuisine.net/)
+    - "You can [essentially](http://data-cuisine.net/data-dishes/spiced-foreigners-between-pasta/) taste how immigration spiced up Finland!"
