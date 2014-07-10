@@ -59,7 +59,7 @@
   - Rob Simmon of NASA has a tutorial ["How To Make a True-Color Landsat 8 Image"](http://earthobservatory.nasa.gov/blogs/elegantfigures/2013/10/22/how-to-make-a-true-color-landsat-8-image/)
   - Window boundaries are unprojected to coordinates which are then reprojected onto locator map.
   - Cities were sometimes traced with a neat little bespoke in-browser tool.
-- Toph likes [Sonifizer](http://www.sonifizer.com/), for data audio
+- Toph likes [Sonifizer](http://www.sonifizer.com/), for data audio, done by a GA guy who kept walking by
   - Adam has done ["Making Music with D3"](http://roadtolarissa.com/synth/)
   - Karl Ward's poignant ["Th_s Lan_ Is Yo_r L_nd"](http://karlward.com/this/)
   - Amanda Cox's awesome ["Fractions of a Second: An Olympic Musical"](http://www.nytimes.com/interactive/2010/02/26/sports/olympics/20100226-olysymphony.html?_r=0)
