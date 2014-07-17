@@ -68,3 +68,13 @@
     - Larry has a 2010 email exchange with Amanda in which she wisely recommends he learn Javascript, not Flash. Our origin story!
   - [Data cuisine](http://data-cuisine.net/)
     - "You can [essentially](http://data-cuisine.net/data-dishes/spiced-foreigners-between-pasta/) taste how immigration spiced up Finland!"
+    
+### 17 July 2014
+- Adam talks
+ 	- [crazy map shit](http://roadtolarissa.com/population-division/) code is 		[here](https://github.com/1wheel/roadtolarissa/blob/master/source/javascripts/posts/joymap/drawMap.js) 
+	- and ICYMI last week ["Making Music with D3"](http://roadtolarissa.com/synth/)
+- Keith talks
+	- chords in a chorus, audio stuffs with d3 (tbd links)
+	- [bubble and chloropleth map tool](https://github.com/keithcollins/data-mapper/) :sparkles: SVG to AI yayyy! :sparkles:
+- Can you programmatically pick a projection? [maybe!](http://cartography.oregonstate.edu/demos/AdaptiveCompositeMapProjections/)
+	- related: when will u ever use the [ass projection](http://bl.ocks.org/mbostock/3797581)
