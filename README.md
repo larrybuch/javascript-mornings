@@ -76,5 +76,6 @@
 - Keith talks
 	- chords in a chorus, audio stuffs with d3 (tbd links)
 	- [bubble and chloropleth map tool](https://github.com/keithcollins/data-mapper/) :sparkles: SVG to AI yayyy! :sparkles:
+	- related: [Object.keys() and more](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object), and [D3 reference page on array functions](https://github.com/mbostock/d3/wiki/Arrays)
 - Can you programmatically pick a projection? [maybe!](http://cartography.oregonstate.edu/demos/AdaptiveCompositeMapProjections/)
 	- related: when will u ever use the [ass projection](http://bl.ocks.org/mbostock/3797581)
